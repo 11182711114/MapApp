@@ -88,7 +88,7 @@ import places.place.Place.PlaceType;
  * 
  * ---
  * 
- * Factories are used so as to not require any change to the logic of the this(main) class 
+ * Factories are used so as to not require any change to the logic of this(main) class 
  * but rather make the system a sort of "create and drop in" in terms of adding subclasses to Place
  */
 @SuppressWarnings("serial")

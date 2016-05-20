@@ -9,7 +9,7 @@ import java.util.Set;
 public class Category {
 //	private static HashMap<String,Category> currentCategories;
 	
-	private static class CategoryHolder{ //Making this a singleton isnt necessary as its always loaded with the JList
+	private static class CategoryHolder{
 		private static final Map<String,Category> CURRENT_CATEGORIES = new HashMap<>();
 		static{
 			CURRENT_CATEGORIES.put("Buss", new Category("Buss",Color.red));	
