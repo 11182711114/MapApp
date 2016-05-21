@@ -8,8 +8,7 @@ import java.util.Set;
 
 public class Category {
 //	private static HashMap<String,Category> currentCategories;
-	
-	private static class CategoryHolder{
+	private static class CategoryHolder{ //Does this even make sense?
 		private static final Map<String,Category> CURRENT_CATEGORIES = new HashMap<>();
 		static{
 			CURRENT_CATEGORIES.put("Buss", new Category("Buss",Color.red));	
