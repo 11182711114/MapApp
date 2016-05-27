@@ -109,6 +109,7 @@ public class MapApp extends JFrame {
 	private static FileNameExtensionFilter placeFilter = new FileNameExtensionFilter("Places", "places");
 	private JFileChooser fileChooser;
 
+	//main panel components
 	private JComboBox<PlaceType> newPlaceChooser;
 	private JTextField searchInput;
 	private SortedList sortedList;
@@ -116,6 +117,7 @@ public class MapApp extends JFrame {
 	private JScrollPane mapPane;
 	private JList<Category> list;
 	
+	//main panel listeners
 	private WhatIsHereListener whatIsHereListener;
 	private NewPlaceListener comboListener;
 
